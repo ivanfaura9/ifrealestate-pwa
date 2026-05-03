@@ -1,6 +1,6 @@
 {
-  "name": "IF Real Estate",
-  "short_name": "IF Real Estate",
+  "name": "IF",
+  "short_name": "IF",
   "description": "Captura instantánea de leads y acceso al CRM de IF Real Estate.",
   "start_url": "./",
   "scope": "./",
