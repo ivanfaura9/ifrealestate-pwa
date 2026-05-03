@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#DD1806" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="IF Real Estate" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="icons/favicon.png" />
+  <title>IF Real Estate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="icons/icon-192.png" alt="IF Real Estate" class="logo" />
+    <h1>IF Real Estate</h1>
+    <p class="tagline">CRM + Notificaciones de leads en tiempo real</p>
+  </header>
+
+  <main>
+    <section id="install-banner" class="card hidden">
+      <strong>📲 Instala la app</strong>
+      <p>Desde Safari toca el botón <em>Compartir</em> → <em>Añadir a pantalla de inicio</em>. Solo así recibirás notificaciones.</p>
+    </section>
+
+    <section class="card">
+      <h2>🔔 Activar notificaciones</h2>
+      <p id="status-text">Cargando…</p>
+      <button id="btn-enable" class="primary hidden">Activar notificaciones</button>
+      <div id="subscription-output" class="hidden">
+        <p>Suscripción creada. Envía esta clave al administrador para activarte:</p>
+        <textarea id="subscription-text" readonly></textarea>
+        <button id="btn-copy">Copiar al portapapeles</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🌐 Web pública</h2>
+      <p>Accede a la web de IF Real Estate.</p>
+      <a class="primary block" href="https://www.ifrealestate.es" target="_blank" rel="noopener">Abrir ifrealestate.es</a>
+    </section>
+
+    <section class="card">
+      <h2>📊 Acceso al CRM</h2>
+      <p>Entra al panel de Qobrix.</p>
+      <a class="primary block" href="https://ifrealestate4571.eu1.qobrix.com" target="_blank" rel="noopener">Abrir Qobrix</a>
+    </section>
+  </main>
+
+  <footer>
+    <small>IF Real Estate · Barcelona</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
